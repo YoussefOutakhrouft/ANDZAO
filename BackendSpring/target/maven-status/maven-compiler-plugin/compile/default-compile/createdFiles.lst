@@ -1,0 +1,15 @@
+com\andzoa\repository\ProjetUCCARepository.class
+com\andzoa\model\Perimetre.class
+com\andzoa\model\Province.class
+com\andzoa\repository\TraderRepository.class
+com\andzoa\DatabaseInitializer.class
+com\andzoa\repository\PrixChronologieRepository.class
+com\andzoa\repository\PerimetreRepository.class
+com\andzoa\controller\PerimetreController.class
+com\andzoa\model\Trader.class
+com\andzoa\security\SecurityConfig.class
+com\andzoa\model\PrixChronologie.class
+com\andzoa\AndzoaApplication.class
+com\andzoa\repository\ProvinceRepository.class
+com\andzoa\controller\ProvinceController.class
+com\andzoa\model\ProjetUCCA.class

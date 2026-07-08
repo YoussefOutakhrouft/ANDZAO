@@ -1,0 +1,15 @@
+C:\Users\hp\Documents\Stage ANDZOA\BackendSpring\src\main\java\com\andzoa\AndzoaApplication.java
+C:\Users\hp\Documents\Stage ANDZOA\BackendSpring\src\main\java\com\andzoa\controller\PerimetreController.java
+C:\Users\hp\Documents\Stage ANDZOA\BackendSpring\src\main\java\com\andzoa\controller\ProvinceController.java
+C:\Users\hp\Documents\Stage ANDZOA\BackendSpring\src\main\java\com\andzoa\DatabaseInitializer.java
+C:\Users\hp\Documents\Stage ANDZOA\BackendSpring\src\main\java\com\andzoa\model\Perimetre.java
+C:\Users\hp\Documents\Stage ANDZOA\BackendSpring\src\main\java\com\andzoa\model\PrixChronologie.java
+C:\Users\hp\Documents\Stage ANDZOA\BackendSpring\src\main\java\com\andzoa\model\ProjetUCCA.java
+C:\Users\hp\Documents\Stage ANDZOA\BackendSpring\src\main\java\com\andzoa\model\Province.java
+C:\Users\hp\Documents\Stage ANDZOA\BackendSpring\src\main\java\com\andzoa\model\Trader.java
+C:\Users\hp\Documents\Stage ANDZOA\BackendSpring\src\main\java\com\andzoa\repository\PerimetreRepository.java
+C:\Users\hp\Documents\Stage ANDZOA\BackendSpring\src\main\java\com\andzoa\repository\PrixChronologieRepository.java
+C:\Users\hp\Documents\Stage ANDZOA\BackendSpring\src\main\java\com\andzoa\repository\ProjetUCCARepository.java
+C:\Users\hp\Documents\Stage ANDZOA\BackendSpring\src\main\java\com\andzoa\repository\ProvinceRepository.java
+C:\Users\hp\Documents\Stage ANDZOA\BackendSpring\src\main\java\com\andzoa\repository\TraderRepository.java
+C:\Users\hp\Documents\Stage ANDZOA\BackendSpring\src\main\java\com\andzoa\security\SecurityConfig.java
