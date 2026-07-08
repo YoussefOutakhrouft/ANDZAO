@@ -1,0 +1,38 @@
+name: Deploy Frontend to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main # Déclenche le déploiement à chaque push sur la branche main
+
+permissions:
+  contents: write # Permet à l'action de publier sur la branche gh-pages
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24 # Aligné avec la version par défaut de GitHub Actions
+
+      - name: Install Dependencies
+        run: |
+          cd Frontend
+          npm install
+
+      - name: Build React App
+        run: |
+          cd Frontend
+          npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: Frontend/dist # Remplace 'dist' par 'build' si tu n'utilises pas Vite
+          branch: gh-pages # La branche où seront envoyés les fichiers compilés
