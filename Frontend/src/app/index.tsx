@@ -155,6 +155,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#FAFAF5',
+    ...Platform.select({
+      web: {
+        minHeight: '100vh',
+      },
+    }),
   },
   navbar: {
     flexDirection: 'row',
