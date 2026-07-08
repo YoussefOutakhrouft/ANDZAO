@@ -1,0 +1,15 @@
+{
+  "provinces": [
+    {"id":"1","name":"Essaouira","description":"Brief description for Essaouira.","perimetres":[]},
+    {"id":"2","name":"Agadir Ida‑Outanane","description":"Brief description for Agadir Ida‑Outanane.","perimetres":[]},
+    {"id":"3","name":"Taroudant","description":"Brief description for Taroudant.","perimetres":[]},
+    {"id":"4","name":"Chtouka Ait Baha","description":"Brief description for Chtouka Ait Baha.","perimetres":[]},
+    {"id":"5","name":"Tiznit","description":"Brief description for Tiznit.","perimetres":[
+      {"id":"p1","name":"Centre","color":"#00ff00","coordinates":[]},
+      {"id":"p2","name":"Anzi","color":"#ff8800","coordinates":[]},
+      {"id":"p3","name":"Tafraout","color":"#ff0000","coordinates":[]}
+    ]},
+    {"id":"6","name":"Sidi Ifni","description":"Brief description for Sidi Ifni.","perimetres":[]},
+    {"id":"7","name":"Guelmim","description":"Brief description for Guelmim.","perimetres":[]}
+  ]
+}

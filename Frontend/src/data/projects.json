@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "id": "p1",
+      "provinceId": "5",
+      "name": "UCCA Centre",
+      "description": "Construction of central crushing unit in Tiznit centre.",
+      "status": "En cours",
+      "progress": 45,
+      "dateIdentification": "2023-06-01",
+      "approvisionnement": "Local argan farms",
+      "ecoulement": "Distribution to regional markets",
+      "cooperativesEncadrantes": ["Coop A", "Coop B"]
+    },
+    {
+      "id": "p2",
+      "provinceId": "5",
+      "name": "UCCA Anzi",
+      "description": "UCCA project in Anzi perimeter.",
+      "status": "Retard",
+      "progress": 20,
+      "dateIdentification": "2024-01-15",
+      "approvisionnement": "Supply from Anzi farms",
+      "ecoulement": "Export to national market",
+      "cooperativesEncadrantes": ["Coop C"]
+    }
+  ]
+}
